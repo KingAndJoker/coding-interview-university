@@ -47,32 +47,24 @@ Traduções em progresso:
     <p>
         <strong>Special thanks to:</strong>
     </p>
-    <p>
-        <a href="https://oss.capital/">
+    <div>
+        <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
             <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
-            </div>
-            <div>
-                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
-            </div>
-        </a>
-    </p>
-    <br />
-    <p>
-        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
             </div>
             <div>
                 <p>
-                    <strong>Dev environments built for the cloud</strong>
+                    <strong>Master the technical interview without endless grinding.</strong>
                 </p>
             </div>
             <div>
-                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
+                <sup>Created by ex-Google engineers, AlgoMonster will help you crush the technical interview in less time 
+                and with fewer sleepless nights grinding away random problems. You will learn the key patterns necessary to solve 
+                any interview question and gain the systematic knowledge you need to prove your expertise. Be more confident 
+                as you walk into that interview!</sup>
             </div>
         </a>
-    </p>
+    </div>
     <hr />
 </div>
 
@@ -264,7 +256,6 @@ Alguns vídeos estão disponíveis somente ao ingressar em um curso no Coursera,
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1) (Usando O Quadro Branco)
-- [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/) (Usando o Quadro Branco Efetivamente durante Entrevistas de Programação)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs) (Desmistificando Recrutamento Técnico)
 - [ ] Decifrando A Entrevista de Programação Série 1:
     - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ) (Gayle L McDowell - Decifrando A Entrevista de Programação - vídeo)
@@ -941,7 +932,7 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
         - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO) (Engenharia de Software Orientada a Objetos: Desenvolvedor de Software usando UML e Java)
     - [ ] Princípios de SOLID de POO:
         - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE) (Princípios de SOLID de Orientação a Objetos e Design Ágil por Bob Martin)
-        - [ ] [SOLID Design Patterns in C# (video)](https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ) (Padrões de Design de SOLID em C# - vídeo)
+        - [ ] [SOLID Design Patterns in C# (video)](https://www.youtube.com/playlist?list=PL8RerBWgqkey0rgzdmoJTc_ijMo8lf5T-) (Padrões de Design de SOLID em C# - vídeo)
         - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A) (Princípios de SOLID - vídeo)
         - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html) (S - Princípio da Responsabilidade Única)
             - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk) (mais informações)
@@ -1318,7 +1309,7 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
 
 - [ ] Séries de vídeos curtos (2 - 3 minutos) sobre o assunto (23 vídeos)
     - [Vídeos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Séries de vídeos curtos (2 - 5 minutos) sobre o assunto - Michael Sambol (18 vídeos):
+- [ ] Séries de vídeos curtos (2 - 5 minutos) sobre o assunto - Michael Sambol (38 vídeos):
     - [Vídeos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 
 ---

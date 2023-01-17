@@ -1,4 +1,4 @@
-# Coding Interview University
+# 编程面试大学
 
 原先我为了成为一个软件工程师而建立这份简单的学习主题清单， 但这份清单随着时间的推移而膨胀成今天这样。在做完这份清单上的每个目标后，[我成为了 Amazon 的软件开发工程师](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 你或许不需要像我一样学习这么多。但是，让你成为一位称职工程师所需要的知识都在这里了。
 
@@ -11,37 +11,26 @@
 <div align="center">
 	<hr />
     <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+        <a href="https://github.com/sponsors/jwasham"><strong>成为赞助商</strong> 并支持编程大学！</a>
     </p>
     <p>
-        <strong>Special thanks to:</strong>
+        <strong>特别感谢:</strong>
     </p>
-    <p>
-        <a href="https://oss.capital/">
+    <div>
+        <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
             <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
-            </div>
-            <div>
-                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
-            </div>
-        </a>
-    </p>
-    <br />
-    <p>
-        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
             </div>
             <div>
                 <p>
-                    <strong>Dev environments built for the cloud</strong>
+                    <strong>算法秘籍，模版刷题效率翻倍，上岸大厂必备</strong>
                 </p>
             </div>
             <div>
-                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
+                <sup>谷歌工程师们浓缩多年刷题经验，呕心沥血总结出的最强算法题型详解，提炼精华模版，由浅入深，简单易懂，举一反三。助你一扫刷题烦恼，一览众山小，高处不胜寒。早日上岸，圆梦大厂。</sup>
             </div>
         </a>
-    </p>
+    </div>
     <hr />
 </div>
 
@@ -186,48 +175,56 @@
 
 下面所有的东西都只是一个概述。因此，你需要由上而下逐一地去处理它。
 
-在学习过程中，我使用 GitHub 特殊语法的 markdown 去检查计划的进展，包括使用包含任务进度的任务列表。
+在学习过程中，我使用 GitHub 特殊语法的 Markdown 去检查计划的进展，包括使用包含任务进度的任务列表。
 
-**创建一个新的分支，以便你可以像这样去勾选计划的进展：直接往方括号中填写一个字符 x 即可：[x]**。
+- [更多关于 Github-flavored Markdown 的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-    Fork一个分支，并跟随以下的指令
+### 如果你不想使用 Git
 
-通过单击 Fork 按钮来 fork GitHub 仓库：[jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
+在该页面上，单击顶部附近的 Code 按钮，然后单击“Download ZIP”。解压文件，就可以使用文本文件了。
 
-    克隆项目到本地
+如果你打开一个代码编辑器，你会看到所有格式都很好。
 
-`git checkout -b progress`
+![How to download the repo as a zip file](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
 
-`git remote add jwasham https://github.com/jwasham/coding-interview-university`
+### 如果你不介意 Git
 
-`git fetch --all`
+1. 通过单击 Fork 按钮来 fork GitHub 仓库：`https://github.com/jwasham/coding-interview-university`
 
-    在你完成了一些修改后，在框框中打 x
+    ![Fork the GitHub repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
 
-`git add .`
+2. 克隆项目到本地：
 
-`git commit -m "Marked x"`
+    ```sh
+    git clone git@github.com:<your_github_username>/coding-interview-university.git
+    cd coding-interview-university
+    git checkout -b progress
+    git remote add jwasham https://github.com/jwasham/coding-interview-university
+    git fetch --all
+    ```
 
-`git rebase jwasham/main`
+3. 在你完成了一些修改后，在框框中打 x：
 
-`git push --set-upstream origin progress`
-
-`git push --force`
-
-[更多关于 Github-flavored markdown 的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
-
+    ```sh
+    git add .
+    git commit -m "Marked x"
+    git rebase jwasham/main
+    git push --set-upstream origin progress
+    git push --force
+    ```
 
 ## 不要觉得自己不够聪明
 
 - 大多数成功的软件工程师都非常聪明，但他们都有一种觉得自己不够聪明的不安全感。
-- [天才程序员的神话](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [不要单打独斗：面对技术中的隐形怪物](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- 下面的视频可以帮助你克服这种不安全感：
+    - [天才程序员的神话](https://www.youtube.com/watch?v=0SARbwvhupQ)
+    - [不要单打独斗：面对技术中的隐形怪物](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## 相关视频资源
 
 部分视频只能通过在 Coursera 或者 Edx 课程上注册登录才能观看。这些视频被称为网络公开课程（MOOC）。有时候某些课程需要等待好几个月才能获取，这期间你无法观看这些课程的影片。
 
-    很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，比如 YouTube 视频，以代替那些在线课程的视频。此外，一些大学的讲座视频也是我所青睐的。
+很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，比如 YouTube 视频，以代替那些在线课程的视频。此外，一些大学的讲座视频也是我所青睐的。
 
 ## 面试过程 & 通用的面试准备
 
@@ -1193,7 +1190,7 @@
 
 - [ ] 2-3分钟的简短主题视频系列（23个视频）
     - [视频](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2-5分钟的简短主题视频系列──Michael Sambol（18个视频）：
+- [ ] 2-5分钟的简短主题视频系列──Michael Sambol (38个视频）：
     - [视频](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick 视频 ── 算法I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick 视频 ── 算法II](https://www.coursera.org/learn/algorithms-part2)
@@ -1265,6 +1262,7 @@
 - [InterviewBit](https://www.interviewbit.com)
 - [Project Euler (数学方向为主)](https://projecteuler.net/index.php?section=problems)
 - [Code Exercises](https://code-exercises.com/)
+- [Scaler Topics](https://www.scaler.com/topics/)
 
 语言学习网站，附带编码挑战：
 
